@@ -1,1 +1,3 @@
 ## Day 02
+
+My immediate reaction was to simply build an `if else` tree for each possibility and pre calculate the match scores. This seemed like it would still be very efficient in spite of the branching statements. To check this, I opened [quick bench](https://quick-bench.com/) and compared this to using a map with each possibility and score stored in it. Unless I made a mistike, this turned out to be 1.7 times slower. Hence I stuck to a simple `if` tree. 

@@ -1,1 +1,3 @@
 ## Day 06
+
+While solving, I was obsessed with not checking more than 4 or 14 elements after each iteration. This led me to use a hash table and add+remove one element after each iteration. Though I haven't benchmarked this, I realise its probably less efficient than a different method which does count 26 elements each iteration, looking for only 4 or 14 with a value of 1. One such implementation can be found [here](https://gist.github.com/luketokheim/d88b8c172c434d343bf2f1146c1e56a5), by luketokheim. 

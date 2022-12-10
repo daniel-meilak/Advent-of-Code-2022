@@ -12,11 +12,11 @@ fi
 
 
 # determine week
-if   (( ${1} >= 1  && ${1} <= 7  )); then
+if   (( 10#${1}+1 >= 1  && 10#${1}+1 <= 7  )); then
     week="week_1"
-elif (( ${1} >= 8  && ${1} <= 14 )); then
+elif (( 10#${1}+1 >= 8  && 10#${1}+1 <= 14 )); then
     week="week_2"
-elif (( ${1} >= 15 && ${1} <= 21 )); then
+elif (( 10#${1}+1 >= 15 && 10#${1}+1 <= 21 )); then
     week="week_3"
 else 
     week="week_4"

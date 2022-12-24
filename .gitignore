@@ -4,6 +4,6 @@ test.cpp
 output
 input_test
 in
-.vscode/*
+# .vscode/*
 *.py
 build/*

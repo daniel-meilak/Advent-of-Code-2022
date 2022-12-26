@@ -1,9 +1,7 @@
-#include<iostream>
-#include<vector>
-#include<string>
-#include<cmath>
-#include<algorithm>
 #include<cstdlib>
+#include<iostream>
+#include<string>
+#include<vector>
 #include"utils.h"
 
 int main(){

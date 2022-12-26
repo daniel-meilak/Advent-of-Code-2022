@@ -1,9 +1,8 @@
-#include<iostream>
-#include<vector>
-#include<string>
-#include<algorithm>
 #include<cstdlib>
+#include<iostream>
+#include<string>
 #include<unordered_map>
+#include<vector>
 #include"utils.h"
 
 int main(){

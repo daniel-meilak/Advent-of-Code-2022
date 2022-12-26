@@ -26,11 +26,10 @@ fi
 mkdir -p ${week}/day_${1}
 
 # create template c++ file
-echo "#include<iostream>
-#include<vector>
+echo "#include<cstdlib>
+#include<iostream>
 #include<string>
-#include<algorithm>
-#include<cstdlib>
+#include<vector>
 #include\"utils.h\"
 
 int main(){

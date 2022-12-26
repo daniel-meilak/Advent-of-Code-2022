@@ -1,12 +1,8 @@
-#include<iostream>
-#include<vector>
-#include<string>
-#include<algorithm>
 #include<cstdlib>
-#include<climits>
+#include<iostream>
 #include<set>
-#include<iterator>
-#include<functional>
+#include<string>
+#include<vector>
 #include"utils.h"
 
 int main(){

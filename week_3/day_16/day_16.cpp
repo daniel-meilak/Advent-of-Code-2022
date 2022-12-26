@@ -1,10 +1,9 @@
-#include<iostream>
-#include<vector>
-#include<string>
-#include<algorithm>
-#include<cstdlib>
-#include<unordered_map>
 #include<climits>
+#include<cstdlib>
+#include<iostream>
+#include<string>
+#include<unordered_map>
+#include<vector>
 #include"utils.h"
 
 struct Room {

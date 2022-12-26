@@ -1,11 +1,9 @@
-#include<iostream>
-#include<vector>
-#include<string>
-#include<iterator>
-#include<deque>
-#include<algorithm>
-#include<cstdlib>
 #include<cctype>
+#include<cstdlib>
+#include<deque>
+#include<iostream>
+#include<string>
+#include<vector>
 #include"utils.h"
 
 int main(){

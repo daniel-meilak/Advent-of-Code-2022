@@ -1,10 +1,10 @@
-#include<iostream>
-#include<vector>
-#include<string>
 #include<algorithm>
-#include<cstdlib>
 #include<cctype>
+#include<cstdlib>
+#include<iostream>
+#include<string>
 #include<unordered_set>
+#include<vector>
 #include"utils.h"
 
 // forward declaration

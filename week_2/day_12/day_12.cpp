@@ -1,12 +1,13 @@
-#include<iostream>
-#include<vector>
-#include<string>
-#include<algorithm>
 #include<cstdlib>
-#include<unordered_map>
 #include<deque>
+#include<iostream>
+#include<string>
+#include<unordered_map>
+#include<vector>
 #include"utils.h"
 #include"point.h"
+#include"utils.h"
+
 
 static std::vector<point> neighbours = {{0,1},{0,-1},{-1,0},{1,0}};
 

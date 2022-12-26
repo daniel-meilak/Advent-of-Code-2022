@@ -1,12 +1,11 @@
-#include<iostream>
-#include<vector>
-#include<string>
-#include<algorithm>
-#include<cstdlib>
-#include<unordered_set>
 #include<climits>
-#include"utils.h"
+#include<cstdlib>
+#include<iostream>
+#include<string>
+#include<unordered_set>
+#include<vector>
 #include"point.h"
+#include"utils.h"
 
 // forward function declaration
 bool drop_sand(std::unordered_set<point>& walls, point& sand, int fall, int& part);

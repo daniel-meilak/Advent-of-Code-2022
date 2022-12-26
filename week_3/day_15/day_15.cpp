@@ -1,13 +1,12 @@
-#include<iostream>
-#include<vector>
-#include<string>
-#include<algorithm>
 #include<cstdlib>
-#include<unordered_set>
+#include<iostream>
 #include<map>
-#include"utils.h"
-#include"point.h"
+#include<string>
+#include<unordered_set>
+#include<vector>
 #include"interval_map.h"
+#include"point.h"
+#include"utils.h"
 
 // forward function declaration
 interval_map_t<long> find_intervals(const std::vector<std::vector<int>>& input, long yLevel);

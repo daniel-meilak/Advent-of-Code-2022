@@ -1,12 +1,12 @@
-#include<iostream>
-#include<vector>
-#include<string>
-#include<algorithm>
 #include<cstdlib>
-#include<unordered_set>
+#include<iostream>
+#include<string>
 #include<unordered_map>
-#include"utils.h"
+#include<unordered_set>
+#include<vector>
 #include"point.h"
+#include"utils.h"
+
 
 // map of movements for each direction
 std::unordered_map<char, point> dir = {{'U',{0,1}},{'D',{0,-1}},{'L',{-1,0}},{'R',{1,0}}};

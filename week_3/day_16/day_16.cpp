@@ -11,7 +11,7 @@ std::unordered_map<std::string, int> indexMap;
 std::unordered_map<std::string, int> flowMap;
 std::unordered_map<std::string, std::unordered_map<std::string, int>> shortestPath;
 
-// function that performs a dfs
+// explore every path (DFS)
 void visit(const std::string& room, int budget, int state, int flow, std::unordered_map<int,int>& pressure){
     pressure[state] = std::max(pressure[state], flow);
 
@@ -68,6 +68,7 @@ int main(){
     int part1{INT_MIN}, part2{INT_MIN};
     std::unordered_map<int, int> part1_unordered_map, part2_unordered_map;
     
+    // explore all paths
     visit("AA", 30, 0, 0, part1_unordered_map);
     visit("AA", 26, 0, 0, part2_unordered_map);
 
@@ -77,6 +78,8 @@ int main(){
     // part 2 
     for (const auto& [key1, value1] : part2_unordered_map){
         for (const auto& [key2, value2] : part2_unordered_map){
+
+            // !(key1 & key2) makes sure that no valves are opened by both people
             if (!(key1 & key2)){ part2 = std::max(part2, value1 + value2); }
         }
     }

@@ -38,6 +38,7 @@
 			"command": "/usr/bin/g++",
 			"args": [
 				"-fdiagnostics-color=always",
+				"-O3",
 				"-g",
 				"-Wall",
 				"-Wpedantic",

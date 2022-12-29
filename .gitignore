@@ -6,4 +6,5 @@ input_test
 in
 # .vscode/*
 *.py
+*.cs
 build/*

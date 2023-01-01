@@ -56,7 +56,9 @@
       "ctime": "cpp",
       "ratio": "cpp",
       "variant": "cpp",
-      "map": "cpp"
+      "map": "cpp",
+      "complex": "cpp",
+      "iomanip": "cpp"
    },
    "C_Cpp.errorSquiggles": "disabled"
 }

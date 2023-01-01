@@ -58,7 +58,9 @@
       "variant": "cpp",
       "map": "cpp",
       "complex": "cpp",
-      "iomanip": "cpp"
+      "iomanip": "cpp",
+      "climits": "cpp",
+      "bitset": "cpp"
    },
    "C_Cpp.errorSquiggles": "disabled"
 }
